@@ -14,12 +14,22 @@
             color: #1D1D1F;
             line-height: 1.6;
         }
+        .notice {
+            background: #FFF3CD;
+            border-left: 4px solid #C9A227;
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        .notice strong {
+            color: #C9A227;
+        }
         h1, h2, h3, h4 {
             color: #2B8265;
         }
         h1 {
             font-size: 32px;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
         h2 {
             font-size: 28px;
@@ -56,8 +66,8 @@
             margin-bottom: 30px;
             padding: 10px 20px;
             background: #2B8265;
-            color: white;
-            text-decoration: none;
+            color: white !important;
+            text-decoration: none !important;
             border-radius: 8px;
         }
         .back-link:hover {
@@ -69,18 +79,12 @@
 
 <a href="index.html" class="back-link">← Zurück zur Übersicht</a>
 
+<div class="notice">
+    <strong>ℹ️ Hinweis:</strong> Dies ist die App-spezifische Ergänzung zum Impressum der BufiB-App. 
+    Das vollständige Impressum finden Sie auf <a href="https://bufib.de/impressum/">bufib.de</a>.
+</div>
+
 <h1>Impressum</h1>
-
-<!-- ============================================
-     ERGÄNZUNG FÜR https://bufib.de/impressum/
-     
-     Füge diesen Block ANS ENDE deines bestehenden
-     Impressums ein (vor dem Footer)
-     
-     VERSION: FINAL (korrigiert + juristisch abgesichert)
-     ============================================ -->
-
-<hr style="margin: 60px 0; border: none; border-top: 2px solid #2B8265;">
 
 <h2 id="mobile-app" style="color: #2B8265; font-size: 28px; margin-top: 40px;">
     Zusatz: BufiB-App
@@ -327,9 +331,12 @@
     <strong>Stand dieser App-Ergänzung:</strong> 20. Februar 2026
 </p>
 
-<!-- ENDE DER APP-ERGÄNZUNG -->
-
 <br><br>
+<div class="notice">
+    Diese Ergänzung ist Teil des vollständigen Impressums auf 
+    <a href="https://bufib.de/impressum/">bufib.de/impressum/</a>
+</div>
+
 <a href="index.html" class="back-link">← Zurück zur Übersicht</a>
 
 </body>
